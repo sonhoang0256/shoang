@@ -78,15 +78,15 @@ header .hdcenter h1 {
     opacity: 0.6;
     cursor: pointer;
 }
-.tbody {
+.body-content {
 	margin: 100px 125px 100px 125px;
 	text-align: center;
 }
-.tbody h2 {
+.body-content h2 {
 	font-size: 28px;
 	margin-bottom: 36px;
 }
-.tbody .ab img {
+.body-content .ab img {
 	width: calc(50%-20px);
 	float: left;
 	position: relative;
@@ -106,14 +106,14 @@ content {
 .imgcontent img{
     width: 100%;
 }
-.imgbox{padding: 20px;}
-.imgcap{
+.img-box{padding: 20px;}
+.img-caption{
     font-size: 20px;
     margin: 24px auto;
     text-align: center;
     color: rgb(61, 153, 145);
 }
-.imgp{
+.img-description{
     text-align: center;
     line-height: 36px;
 }
@@ -129,6 +129,6 @@ footer div {
 footer div p {
 	color: white;
 }
-footer div .pwr {
+footer div .copyright {
 	color: gray;
 }
