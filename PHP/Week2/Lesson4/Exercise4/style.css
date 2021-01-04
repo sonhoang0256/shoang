@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background-color: WhiteSmoke;
+	border-bottom: 3px solid gray;
+	padding: 50px;
+}
+
+
+.footer {
+	text-align: center;
+}

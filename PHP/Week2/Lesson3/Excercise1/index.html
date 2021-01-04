@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Payment Form</title>
+	</head>
+	<body>
+		<form action="#">
+			<h2>Thanh toán</h2>
+			<p>
+				<label for="name" name="name" id="fullname">Tên đầy đủ: </label>
+					<input type="text" name="name" id="fullname" placeholder="Nhập tên đầy đủ người mua hàng" size = 30 required>
+			</p>
+			<p>
+				<label for="password" name="password id="psw">Password: </label>
+					<input type="password" id="psw" placeholder="Nhập password" required>
+			</p>
+			<p>
+				<label for="email" name="email" id="mail">Email: </label>
+					<input type="email" name="email" id="mail" placeholder="Nhập email" required>
+			</p>
+			<p>
+				<label for="dateofbirth" name="ngaysinh" id="dateofbirth">Ngày sinh: </label>
+					<input type="date" name="ngaysinh" id="dateofbirth" required>
+			</p>
+			<p>
+				<label for="items" name="mathang" id="item">Mặt hàng mua: </label>
+					<input list="items" name="mathang" id="item">
+						<datalist id="items">
+							<option value="Shoes">
+							<option value="Socks">
+							<option value="Shirt">
+							<option value="Sandals">
+							<option value="Trousers">
+						</datalist>
+			</p>
+			<p>
+				<label for="quantity" name="soluong" id="quantity">Số lượng mua: </label>
+					<input type="number" name="soluong" id="quantity" min="1" max="5">
+			</p>
+			<p>
+				<label for="transport" name="vanchuyen" id="transport">Bán kính vận chuyển: </label>
+					<input type="range" id="transport" min="10" max="20">
+			</p>
+					<input type="submit" id="register" value="Đăng kí">
+		</form>
+	</body>
+</html>

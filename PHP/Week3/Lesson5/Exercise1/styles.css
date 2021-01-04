@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: 'Lora' ,SansSerif;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("materials/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position:center;
+    height: 100%;
+    margin: auto;
+}
+header #logo {
+    float: left;
+	color: white;
+	font-size: 40px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+header .navigation {
+    float: right;
+    padding: 15px 0 0 29px;
+}
+header .navigation li {
+    display: inline-block;
+    margin-right: 26px;
+	margin-top: 15px;
+}
+header .navigation li a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s color;
+}
+header .navigation li.act a{
+	border: 1px solid white;
+	border-radius: 100px;
+	padding: 10px 15px;
+}
+header .navigation li.act a:hover {
+	cursor: point;
+	background: white;
+}
+header .navigation li a:hover {
+  color: #00BFFF;
+}
+header .hdcenter h1 {
+	font-size: 50px;
+}
+.hdcenter {
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+}
+.hdcenter #btn a {
+	text-decoration: none;
+	font-family: 'Lora' ,SansSerif;
+	color: white;
+}
+#btn{
+    padding: 10px;
+    background: rgb(54, 179, 168);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+#btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.tbody {
+	margin: 100px 125px 100px 125px;
+	text-align: center;
+}
+.tbody h2 {
+	font-size: 28px;
+	margin-bottom: 36px;
+}
+.tbody .ab img {
+	width: calc(50%-20px);
+	float: left;
+	position: relative;
+}
+content {
+	margin: 100px 125px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+.tbody p {
+	text-align: center;
+}
+.imgcontent li{
+    width: 49%;
+    display: inline-table;
+}
+.imgcontent img{
+    width: 100%;
+}
+.imgbox{padding: 20px;}
+.imgcap{
+    font-size: 20px;
+    margin: 24px auto;
+    text-align: center;
+    color: rgb(61, 153, 145);
+}
+.imgp{
+    text-align: center;
+    line-height: 36px;
+}
+footer {
+	background-color: black;
+	margin-top: 70px;
+}
+footer div {
+	text-align: center;
+	padding: 75px;
+	line-height: 30px;
+}
+footer div p {
+	color: white;
+}
+footer div .pwr {
+	color: gray;
+}

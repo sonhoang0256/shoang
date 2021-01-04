@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #eeeeee;
+	margin: 20px 20% 0 20%;
+	font-family: arial;
+}
+.container {
+	text-align: center;
+}
+.register-box {
+	line-height: 2;
+}
+.register-box input[type="text"], 
+input[type="email"], input[type="password"] {
+	margin-bottom: 10px;
+	width: 50%;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding-left: 10px;
+}
+.gender ul li {
+	display: inline-block;
+	font-weight: bold;
+}
+.register-box select {
+	margin-bottom: 10px;
+	width: 50%;
+	height: 35px;
+	margin-top: 5px;
+	color: gray;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding-left: 10px;
+}
+.register-box input[type="date"] {
+	margin-bottom: 10px;
+	width: 50%;
+	height: 35px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.gender label {
+	margin-left: 15%;
+}
+.choose-gender {
+	float: right;
+	margin-right: 43%;
+}
+.register-box textarea {
+	margin-bottom: 10px;
+	width: 50%;
+	height: 60px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding-left: 10px;
+}
+.register-box input[type="reset"] {
+	margin-bottom: 10px;
+	width: 150px;
+	height: 35px;
+	border-radius: 5px;
+	border-color: #dad6d6;
+}
+.register-box input[type="submit"] {
+	margin-bottom: 10px;
+	width: 150px;
+	height: 35px;
+	border-radius: 5px;
+	border-color: #7bb3e2;
+	background-color: #7bb3e2;
+	color: white;
+}
+.register-box p {
+	text-align: left;
+	padding-left: 24%;
+}
