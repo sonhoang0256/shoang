@@ -20,9 +20,15 @@ body {
 	width: 274px;
 }
 .text-style {
-	color: gray;
-	margin-bottom: 10px;
 	text-align: center;
+    border-bottom: 1px solid #c7adad;
+    line-height: 0.1em;
+    margin: 11px 0 11px;
+    color: #b9a9a9;
+}
+.text-style span{
+    background:#fff;
+    padding: 2px 10px;
 }
 .navlogin-bar ul li {
 	display: inline-table;
@@ -78,41 +84,32 @@ body {
 	padding: 10px;
 	margin-bottom: 20px;
 }
-.forgot-psw {
-	float: right;
-}
-.autolog-forgotpass {
+.row {
 	margin-bottom: 20px;
 }
-.autolog-forgotpass input[type="checkbox"] {
+.row input[type="checkbox"] {
 	float: left;
 	color: #002db3;
 }
-.autolog-forgotpass a {
+.row a {
 	float: right;
 	text-decoration: none;
 	color: #002db3;
 }
-.login-btn {
+.login-btn button {
 	text-align: center;
-	width: 95%;
+	width: 100%;
 	border: 1px solid rgb(0, 167, 255);
 	background-color: rgb(0, 167, 255);
 	padding: 10px;
 	margin-bottom: 20px;
-}
-.login-btn a {
-	text-decoration: none;
 	color: white;
-	text-align: center;
 }
-.register-btn {
+.register-btn button {
 	text-align: center;
-	width: 95%;
+	width: 100%;
 	border: 1px solid gray;
 	background-color: white;
 	padding: 10px;
-}
-.register-btn a {
-	text-decoration: none;
+	margin-top: 15px;
 }

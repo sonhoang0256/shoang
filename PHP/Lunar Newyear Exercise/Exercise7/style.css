@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url('img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.container {
+	margin: 0 37% 0 37%;
+}
+.main {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+.main img {
+	width: 350px;
+	height: 300px;
+	text-align: center;
+}
+.main p {
+	color: white;
+	font-size: 20px;
+	-webkit-text-stroke: 0.3px black;
+	line-height: 1.3;
+	margin-bottom: 40px;
+}
+.main p span {
+	color: yellow;
+	font-size: 28px;
+}
+.main button {
+	border: 1px solid #0099ff;
+	border-radius: 50px;
+	width: 150px;
+	height: 40px;
+	color: white;
+	background-color: #0099ff;
+	font-family: 'Lobster', cursive;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.main button:hover {
+  background-color: #33d6ff;
+  color: white;
+}
+#snowman img {
+	float: left;
+	width: 230px;
+	height: 230px;
+}
+#developer img {
+	float: right;
+	width: 230px;
+	height: 230px;
+}
+
