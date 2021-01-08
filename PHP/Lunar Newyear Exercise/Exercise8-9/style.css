@@ -1,0 +1,33 @@
+body {
+	background-image: url('images/background.jpg');
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	margin: 5% 10% 5% 10%;
+	background-color: white;
+	padding: 50px 60px 50px 60px;
+}
+header {
+	text-align: center;
+}
+header img {
+	width: 700px;
+}
+header p {
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+}
+.video {
+	margin-bottom: 40px;
+	text-align: center;
+}
+.content .step {
+	font-weight: 900;
+}
+.content .cooking {
+	text-indent: 50px;
+	line-height: 1.7;
+}
+.content .instructor {
+	margin-top: 90px;
+}

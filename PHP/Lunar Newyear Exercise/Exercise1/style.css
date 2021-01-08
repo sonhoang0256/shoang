@@ -18,13 +18,13 @@ body {
 .content {
 	width: 470px;
 }
-.description-box1 .photo {
+.design-box .photo {
 	float: right;
 	position: absolute;
 	top: 30px;
 	left: 900px;
 }
-.description-box2 .content {
+.customize-box .content {
 	float: right;
 	position: absolute;
 	top: 400px ;

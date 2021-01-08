@@ -19,14 +19,21 @@ body {
 	padding: 20px 20px 40px 20px;
 	width: 274px;
 }
-.text-style {
+.login-box label {
+	color: #002db3;
+}
+.login-box label:after {
+	content: " *";
+	color: red;
+}
+.content-divider {
 	text-align: center;
     border-bottom: 1px solid #c7adad;
     line-height: 0.1em;
     margin: 11px 0 11px;
     color: #b9a9a9;
 }
-.text-style span{
+.content-divider span{
     background:#fff;
     padding: 2px 10px;
 }
@@ -70,13 +77,6 @@ body {
 	text-decoration: none;
 	font-size: 13px;
 	color: white;
-}
-.label {
-	color: #002db3;
-}
-.label:after {
-	content: "*";
-	color: #cc0000;
 }
 .login-box input[type="email"], input[type="password"] {
 	width: 100%;
