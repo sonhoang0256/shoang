@@ -1,0 +1,25 @@
+.logo {
+	font-family: 'Pacifico', cursive;
+	font-size: 33px;
+	font-style: italic;
+	color: white;
+	background-color: orangered;
+	margin-top: 5%;
+	border: none;
+	padding-top: 50px;
+	border-radius: 100%;
+	vertical-align: middle;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+}
+
+.feature-items {
+	box-sizing: border-box;
+	max-width: 50%;
+}
+
+.fas {
+	font-size: 40px;
+	color: orangered;
+}

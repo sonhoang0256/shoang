@@ -3,28 +3,28 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .container {
-	margin: 5% 10% 5% 10%;
+	margin: 5% 23% 5% 23%;
 	background-color: white;
 	padding: 50px 60px 50px 60px;
 }
 header {
-	text-align: center;
 }
 header img {
-	width: 700px;
+	width: 100%;
 }
 header p {
 	font-family: 'Lobster', cursive;
 	font-size: 40px;
 }
-.video {
+.tutorial-video iframe {
 	margin-bottom: 40px;
-	text-align: center;
+	width: 100%;
+	height: 370px;
 }
 .content .step {
-	font-weight: 900;
+	font-weight: 800;
 }
-.content .cooking {
+.content .step-description {
 	text-indent: 50px;
 	line-height: 1.7;
 }

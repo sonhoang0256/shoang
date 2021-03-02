@@ -1,0 +1,32 @@
+body {
+	background-image: url('images/background.jpg');
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	margin: 5% 10% 5% 10%;
+	background-color: white;
+	padding: 50px 60px 50px 60px;
+	height: 550px;
+}
+.avatar {
+	width: 570px;
+}
+.avatar img {
+	width: 70%;
+	height: 550px;
+	float: left;
+}
+.information {
+	float: right;
+	margin-right: 100px;
+}
+.information h2 {
+	text-align: center;
+	margin-bottom: 90px;
+}
+.information p {
+	font-size: 20px;
+}
+.information p span {
+	font-weight: 700;
+}

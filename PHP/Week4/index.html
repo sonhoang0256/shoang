@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<script>
+			function mutiply() {
+			var a = document.getElementByID("num-a").value;
+			var b = document.getElementByID("num-b").value;
+			var x = a * b;
+			var x = document.getElementById("form").length;
+			document.getElementById("result").innerHTML = "x";
+			}
+		</script>
+	</head>
+	<body>
+		<form>
+			<label for="num-a">1st Number:</label>
+			<input type="number" name="num-a" id="num-a"></br>
+			<label for="num-b">1st Number:</label>
+			<input type="number" name="num-b" id="num-b"></br>
+			<button onclick="mutiply()">Mutiply</button>
+			<button type="button" onclick="divide()">Divide</button>
+			<p id="result"></p>
+		</form>
+	</body>
+</html>
