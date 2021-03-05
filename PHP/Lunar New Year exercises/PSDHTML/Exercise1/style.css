@@ -1,0 +1,15 @@
+.navtop-features {
+    float: left;
+}
+.navtop-features ul li {
+    list-style: none;
+    display: inline;
+    border-radius: 100%;
+    color: white;
+    border: 1px solid blue;
+    text-decoration: none;
+    
+}
+.navtop-form {
+    float: right;
+}

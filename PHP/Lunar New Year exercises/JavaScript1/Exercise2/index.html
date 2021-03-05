@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap Grid</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<p class="font-weight-blod">Giải phương trình bậc 2</p>
+        <form action="#" method="post" onsubmit="return calEquation()">
+            <p>Nhập vào hệ số a:</p>
+            <input type="number" id="a" required onkeyup="makeEquation()">
+            <p>Nhập vào hệ số b:</p>
+            <input type="number" id="b" required onkeyup="makeEquation()"><br><br>
+            <button class="btn btn-primary" type="submit" onclick="calEquation()">Tìm x</button>
+        </form>
+        <div id="equation"></div>
+        <div id="result"></div>
+	</body>	
+</html>
